@@ -23,7 +23,7 @@ const FresherJobs = () => {
   };
 
   return (
-    <div className='mt-10 mb-10'>
+    <div className='my-24'>
       <SectionTitle heading="Fresher Jobs"/>
       <div className='mt-8 mb-8'>
         <FresherJobCard freaserJobsData={displayedJobs}></FresherJobCard>
