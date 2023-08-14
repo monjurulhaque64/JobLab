@@ -1,0 +1,66 @@
+[
+    {
+      "ID": "01" ,
+      "position": "Web Developer",
+      "location": "Shyamoly, Dhaka-1207",
+      "company": "Bangla Puzzle Limited",
+      "logo": "https://www.banglapuzzle.com/frontend/asset_two/assets/img/logo.png"
+    },
+    {
+      "ID": "02" ,
+      "position": "Software Engineer",
+      "location": "Shyamoli, Dhaka-1207",
+      "company": "DataSoft",
+      "logo": "https://spng.pngfind.com/pngs/s/531-5310994_bvcreatives-ltd-datasoft-systems-bangladesh-limited-data-soft.png"
+    },
+    {
+      "ID": "03" ,
+      "position": "UI/UX Designer",
+      "location": "Moakhali, Dhaka",
+      "company": "Brain Station 23",
+      "logo": "https://erp.bs-23.com/web/image/res.company/1/logo?unique=d978675"
+    },
+    {
+        "ID": "04" ,
+        "position": "React Developer",
+        "location": "Kemal Ataturk Avenue, Dhaka",
+        "company": "Newscred",
+        "logo": "https://assets.themuse.com/uploaded/companies/1130/small_logo.png?v=1662576267"
+      },
+      {
+        "ID": "05" ,
+        "position": "PHP Developer",
+        "location": "Kawran Bazar 1 No Rd, Dhaka 1215",
+        "company": "e-soft",
+        "logo": "https://media.licdn.com/dms/image/C510BAQHOCMqfYzXoTA/company-logo_200_200/0/1549869944559?e=2147483647&v=beta&t=RMa9dYgYaIUsgM5GJ-Z0xCeN_fBrxy_G7i5EjmlZC-8"
+      },
+      {
+        "ID": "06" ,
+        "position": "MERN Stack Developer",
+        "location": "Kazi Nazrul Islam Ave, Dhaka 1215",
+        "company": "Technobd Limited",
+        "logo": "https://media.licdn.com/dms/image/C560BAQEcGo6hZ36izQ/company-logo_200_200/0/1519898162766?e=2147483647&v=beta&t=Hvt_tc24N7LNRSgfLMtwffyhi5G6UKMheE81blLb8-w"
+      },
+      {
+        "ID": "07" ,
+        "position": "Backend Developer",
+        "location": "Moakhali, Dhaka",
+        "company": "Brain Station 23",
+        "logo": "https://erp.bs-23.com/web/image/res.company/1/logo?unique=d978675"
+      },
+      {
+        "ID": "08" ,
+        "position": "Software Engineer",
+        "location": "Mirpur 10 Roundabout, Dhaka 1216",
+        "company": " BJIT Limited ",
+        "logo": "https://www.tbsnews.net/sites/default/files/styles/author/public/organization/logo/bjit_ltd.png"
+      },
+      {
+        "ID": "09" ,
+        "position": "Fontend Developer",
+        "location": "Shyamoly, Dhaka-1207",
+        "company": "Bangla Puzzle Limited",
+        "logo": "https://www.banglapuzzle.com/frontend/asset_two/assets/img/logo.png"
+      }
+  ]
+  

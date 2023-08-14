@@ -1,32 +1,33 @@
 import { useEffect, useState } from 'react';
 import SectionTitle from '../../Share/SectionTitle/SectioTitle';
-import FresherJobCard from './FresherJobCard';
+import ExperiencedJobsCard from './ExperiencedJobsCard';
 
-const FresherJobs = () => {
-  const [freaserJobsData, setFreaserJobsData] = useState([]);
+const ExperiencedJobs = () => {
+  const [experiencedJobsData, setExperiencedJobsData] = useState([]);
   const [displayedJobs, setDisplayedJobs] = useState([]);
   const [showAllJobs, setShowAllJobs] = useState(false);
 
   useEffect(() => {
-    fetch('../../../public/Freaseer.json') 
+    fetch('../../../public/Experiance.json')
       .then(response => response.json())
       .then(data => {
-        setFreaserJobsData(data);
+        setExperiencedJobsData(data);
         setDisplayedJobs(data.slice(0, 6));
       })
       .catch(error => console.error('Error fetching data:', error));
   }, []);
 
   const handleSeeMore = () => {
-    setShowAllJobs(true); 
-    setDisplayedJobs(freaserJobsData);
+    setShowAllJobs(true);
+    setDisplayedJobs(experiencedJobsData);
   };
 
   return (
     <div className='mt-10 mb-10'>
-      <SectionTitle heading="Fresher Jobs"/>
+      <SectionTitle heading="Experienced Jobs" />
       <div className='mt-8 mb-8'>
-        <FresherJobCard freaserJobsData={displayedJobs}></FresherJobCard>
+        <ExperiencedJobsCard experiencedJobsData={displayedJobs} />
+
       </div>
       {!showAllJobs && (
         <button
@@ -40,4 +41,4 @@ const FresherJobs = () => {
   );
 };
 
-export default FresherJobs;
+export default ExperiencedJobs;
