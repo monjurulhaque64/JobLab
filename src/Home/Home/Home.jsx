@@ -1,10 +1,9 @@
+import Navbar from "../../Share/Navbar/Navbar";
 
 const Home = () => {
     return (
-        <div>
-            <h1 className="text-3xl font-bold underline">
-                Hello world!
-            </h1>
+        <div className="container mx-auto mt-8">
+            <Navbar></Navbar>
         </div>
     );
 };
