@@ -1,4 +1,3 @@
-import React from 'react';
 import Banner from './ContactBanner';
 import './Contact.css';
 

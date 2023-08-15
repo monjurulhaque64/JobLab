@@ -6,7 +6,7 @@ const TopIT = () => {
     const [companyData, setCompanyData] = useState([]);
 
     useEffect(() => {
-        fetch('../../../public/ITCompany.json')
+        fetch('http://localhost:5000/itcompany')
             .then(response => response.json())
             .then(data => {
                 setCompanyData(data);

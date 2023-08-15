@@ -8,7 +8,7 @@ const FresherJobs = () => {
   const [showAllJobs, setShowAllJobs] = useState(false);
 
   useEffect(() => {
-    fetch('../../../public/Freaseer.json') 
+    fetch('http://localhost:5000/freaser') 
       .then(response => response.json())
       .then(data => {
         setFreaserJobsData(data);

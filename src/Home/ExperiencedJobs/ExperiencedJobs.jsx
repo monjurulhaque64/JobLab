@@ -8,7 +8,7 @@ const ExperiencedJobs = () => {
   const [showAllJobs, setShowAllJobs] = useState(false);
 
   useEffect(() => {
-    fetch('../../../public/Experiance.json')
+    fetch('http://localhost:5000/experiance')
       .then(response => response.json())
       .then(data => {
         setExperiencedJobsData(data);
