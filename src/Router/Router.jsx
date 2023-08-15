@@ -5,6 +5,7 @@ import Home from "../Home/Home/Home";
 import About from "../About/About";
 import Main from "../Layout/Main";
 import Contact from "../Contact/Contact";
+import SingIn from "../SingIn/SingIn";
 
   const router = createBrowserRouter([
     {
@@ -23,6 +24,10 @@ import Contact from "../Contact/Contact";
           path: "contact",
           element: <Contact></Contact> 
         },
+        {
+          path: 'singin',
+          element: <SingIn></SingIn>
+        }
       ]
     }
     
