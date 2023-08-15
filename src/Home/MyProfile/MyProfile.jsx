@@ -60,10 +60,10 @@ const MyProfile = () => {
       <SectionTitle heading="My Resume" />
 
       {/* Video Resume */}
-      <div className="mb-8">
+      <div className="mb-8 mx-auto flex justify-center items-center">
         <iframe
-          src="https://drive.google.com/file/d/1er3Md8dcu3SMt0EZRnfyMkJdjErk6rZr/preview"
-          width="100%"
+          src="https://drive.google.com/file/d/1NX-mrXDaD4f9NChyACSTksqI6wtnC4fA/preview"
+          width="50%"
           height="400" 
           title="Video Resume"
         ></iframe>
