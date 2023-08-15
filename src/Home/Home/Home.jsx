@@ -1,5 +1,6 @@
 import Navbar from "../../Share/Navbar/Navbar";
 import Banner from "../Banner/Banner";
+import Blog from "../Blog/Blog";
 import ExperiencedJobs from "../ExperiencedJobs/ExperiencedJobs";
 import FresherJobs from "../FresherJobs/FresherJobs";
 import MyProfile from "../MyProfile/MyProfile";
@@ -14,6 +15,7 @@ const Home = () => {
             <ExperiencedJobs></ExperiencedJobs>
             <TopIT></TopIT>
             <MyProfile></MyProfile>
+            <Blog></Blog>
         </div>
     );
 };
