@@ -1,4 +1,3 @@
-import Navbar from "../../Share/Navbar/Navbar";
 import Banner from "../Banner/Banner";
 import Blog from "../Blog/Blog";
 import ExperiencedJobs from "../ExperiencedJobs/ExperiencedJobs";
@@ -8,8 +7,7 @@ import TopIT from "../TopIT/TopIT";
 
 const Home = () => {
     return (
-        <div className="container mx-auto mt-0">
-            <Navbar></Navbar>
+        <div >
             <Banner></Banner>
             <FresherJobs></FresherJobs>
             <ExperiencedJobs></ExperiencedJobs>
