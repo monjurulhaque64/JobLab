@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const ExperiencedJobsCard = ({ experiencedJobsData }) => {
     return (
@@ -10,9 +11,9 @@ const ExperiencedJobsCard = ({ experiencedJobsData }) => {
                     <p>Location: {job.location}</p>
                     <p>Company: {job.company}</p>
                     <img src={job.logo} alt={`${job.company} Logo`} className="mt-4 h-12" />
-                    <button className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-[#ff9900] transition-colors absolute right-4 bottom-4">
+                    <Link to={'/singin'}><button className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-[#ff9900] transition-colors absolute right-4 bottom-4">
                         Apply
-                    </button>
+                    </button></Link>
                 </div>
 
             ))}
