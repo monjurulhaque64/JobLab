@@ -6,7 +6,7 @@ const TopIT = () => {
     const [companyData, setCompanyData] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/itcompany')
+        fetch('https://joblab-server.vercel.app/itcompany')
             .then(response => response.json())
             .then(data => {
                 setCompanyData(data);

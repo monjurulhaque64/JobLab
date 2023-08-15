@@ -8,7 +8,7 @@ const ExperiencedJobs = () => {
   const [showAllJobs, setShowAllJobs] = useState(false);
 
   useEffect(() => {
-    fetch('http://localhost:5000/experiance')
+    fetch('https://joblab-server.vercel.app/experiance')
       .then(response => response.json())
       .then(data => {
         setExperiencedJobsData(data);

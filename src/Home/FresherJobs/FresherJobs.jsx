@@ -8,7 +8,7 @@ const FresherJobs = () => {
   const [showAllJobs, setShowAllJobs] = useState(false);
 
   useEffect(() => {
-    fetch('http://localhost:5000/freaser') 
+    fetch('https://joblab-server.vercel.app/freaser') 
       .then(response => response.json())
       .then(data => {
         setFreaserJobsData(data);
